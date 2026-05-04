@@ -1,0 +1,22 @@
+[project]
+name = "pany-brain"
+version = "0.1.0"
+description = "Pany Brain: Python backend"
+authors = [
+    {name = "Daniel"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "google-adk (>=1.28.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^9.0.2"
+black = "^26.3.1"
+
